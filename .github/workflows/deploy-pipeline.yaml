@@ -89,9 +89,9 @@ jobs:
         with:
           branch: gh-pages
           folder: docs
-  name: Deploy Lambda Function
-    on:
-      push:
-        paths:
-          - userguide.md
+      - name: Deploy Lambda Function
+        on:
+          push:
+            paths:
+              - userguide.md
           
